@@ -71,3 +71,15 @@ export default defineConfig([
   },
 ])
 ```
+
+IronPulse - Modern Gym Management System 🏋️‍♂️IronPulse is a next-generation SaaS application designed for gym owners and fitness centers. It streamlines daily operations with real-time analytics, member management, and AI-driven workout planning—all wrapped in a sleek, responsive interface with Dark Mode support.🚀 Live Demo[Insert your Vercel/Netlify Link Here]✨ Key Features📊 Interactive DashboardReal-time metrics for Active Members, Churn Rate, and Revenue.Visual data analytics using interactive charts (Recharts).Quick access widgets for Recent Signups and Daily Check-Ins.🔐 Smart Access ControlOTP-Based Check-In System: Secure, dynamic 6-digit codes for facility access.Kiosk Mode: Dedicated interface for gym entry points.QR Code Ready: UI placeholders for future QR integration.🤖 AI Workout GeneratorSmart Plans: Generates personalized workout routines (Strength, HIIT, Cardio) in seconds.Detailed Breakdowns: Automatic creation of sets, reps, and rest intervals.Session Tracking: Interactive "Start Session" mode for members to track live progress.⚙️ Advanced CustomizationGlobal Dark Mode: Fully responsive dark theme powered by Tailwind CSS.Settings Hub: Manage notifications, profile details, security (2FA), and billing invoices.Responsive Sidebar: Mobile-first navigation with hamburger menu support.🛠️ Tech StackFrontend Framework: React 18 (Vite)Language: TypeScriptStyling: Tailwind CSSState Management: Zustand (Global Store)Icons: Lucide ReactCharts: RechartsRouting: React Router v6📸 ScreenshotsDashboard (Light)Dark Mode Support[Place Screenshot Here][Place Screenshot Here]AI Workout GeneratorOTP Check-In Kiosk[Place Screenshot Here][Place Screenshot Here]💻 Getting StartedFollow these steps to run IronPulse locally on your machine.PrerequisitesNode.js (v16 or higher)npm or yarnInstallationClone the repositoryBashgit clone https://github.com/N-Sathwik/iron-pulse.git
+cd iron-pulse
+Install dependenciesBashnpm install
+Start the development serverBashnpm run dev
+Open your browserNavigate to http://localhost:5173 to view the app.📂 Project StructureBashsrc/
+├── components/     # Reusable UI (Cards, Modals)
+├── features/       # Page Logic (Dashboard, Auth, Members, Check-In)
+├── layouts/        # Sidebar & Layout Wrappers
+├── stores/         # Zustand Global State (Auth, Workout, Theme)
+└── App.tsx         # Main Router Configuration
+🔮 Future Roadmap[ ] Backend Integration: Connect to Supabase/Firebase for real database persistence.[ ] Member Portal: Dedicated login for gym members to view their own progress.[ ] Payment Gateway: Stripe integration for subscription billing.👨‍💻 AuthorSathwik the DeveloperFull Stack Developer & UI/UX Enthusiast.Building scalable web applications with modern tech stacks.Built with ❤️ for the fitness community.
